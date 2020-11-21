@@ -26,6 +26,10 @@ $(document).ready(function () {
       });
       
      $(".btn").click(function () {
+      if(pick==drop){
+        alert("please select pickup and drop diffrent");
+        return;
+    }
       if(pick=='cu'){
           alert("please select pickup location");
           return;
